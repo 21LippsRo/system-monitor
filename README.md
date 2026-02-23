@@ -51,6 +51,12 @@ docker-compose up -d
 - `http://localhost:5000/metrics`  
 
 ---
+### Grafana Dashboards
+- Pre-configured dashboards are included as JSON files in the `dashboards/` folder.
+- Import these JSON files into your Grafana instance to see the same visualizations as shown here.
+- Customize or extend dashboards as needed for your own monitoring setup.
+
+---
 
 ## Usage
 - The **Grafana dashboards** visualize CPU, memory, disk, and network usage.
@@ -66,6 +72,7 @@ docker-compose up -d
 - Metrics update in real-time, with alerts triggered based on thresholds.
 
 ---
+
 
 ## Project Structure
 ```
